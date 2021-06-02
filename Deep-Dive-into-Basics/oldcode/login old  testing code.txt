@@ -1,0 +1,29 @@
+   //res.send(req.user);
+
+
+
+        /* Below not use*/
+
+        // res.send('We are here to login')
+        // res.send(req.query)         // for param 1st
+        // res.send(req.body)          // 2nd
+
+        /*  const email = req.body.email;
+           const password = req.body.password;
+           const user = new User({email: email, password: password});
+           user.save().then((user)=>{
+               res.send(user)
+           }).catch((err)=>{
+               next(err)
+           }) */
+
+        /*    const error = validationResult(req)
+           const username = req.body.username;
+           const email = req.body.email;
+           const password = req.body.password;
+
+           if(!error.isEmpty())
+           {
+               const errorMsg  = new Error(error.array()[0].msg)
+              next(errorMsg)
+           } */
